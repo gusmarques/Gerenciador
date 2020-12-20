@@ -1,0 +1,47 @@
+
+ul.debts-list div {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 4px;
+    padding: 25px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+ul.debts-list div button{
+    border:0;
+  border-radius:3px;
+  height: 42px;
+  padding: 10px;
+  font-size: 14px;
+ margin-right: 10px;
+  font-weight: bold;
+  /* box-shadow: 0 12px 20px -10px rgba(255, 152, 0,.28), 0 4px 20px 0 rgba(0, 0, 0,.12), 0 7px 8px -5px rgba(255, 152, 0,.2);
+    background-color: #ff9800; */
+  color:#fff;
+  cursor: pointer;
+}
+
+ul.debts-list div button.edit {
+    background: #f49400;
+}
+ul.debts-list div button.destroy {
+    background: crimson;
+}
+
+ul.debts-list div p {
+    color: rgb(81, 95, 117);
+font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom:15px;
+    flex-basis: 100%;
+}
+ul.debts-list div p > span{
+    color:rgb(133, 143, 158);
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
