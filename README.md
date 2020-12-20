@@ -2,7 +2,7 @@
     <tittle>Gerenciador de Devedores | Front-End</tittle>
 <h1 >
  
-<img src="https://uploadlista.s3.amazonaws.com/mocks.png" alt="exemplo imagem">
+<img src="https://uploadlista.s3.amazonaws.com/mocks+(1).png" alt="exemplo imagem">
 
 
 ## 💬️ Sobre o projeto
