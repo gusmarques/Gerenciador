@@ -66,7 +66,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       <a href="#">
         <img src="https://avatars1.githubusercontent.com/u/37513410?s=460&u=de51b35b0b7cb09b2ee86e906b4f0b39d00a71b6&v=4" width="100px;" alt="Foto do Gustavo Marques no github"/><br>
         <sub>
-          <b>Iuri Silva</b>
+          <b>Gustavo Marques</b>
         </sub>
       </a>
  </table>
