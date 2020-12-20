@@ -1,58 +1,60 @@
-<div class="Box-body px-5 pb-5">
-        <article class="markdown-body entry-content container-lg" itemprop="text"><h1 align="center"><a id="user-content-----backend-do-debts-management" class="anchor" aria-hidden="true" href="#----backend-do-debts-management"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>
-    Backend do Debts Management
-</h1><h1><a id="" class="anchor" aria-hidden="true" href="#"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>
-</h1><h2><a id="user-content-️-sobre-o-projeto" class="anchor" aria-hidden="true" href="#️-sobre-o-projeto"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a><g-emoji class="g-emoji" alias="speech_balloon" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4ac.png"><img class="emoji" alt="speech_balloon" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4ac.png"></g-emoji> Sobre o projeto</h2>
-<p>O problema que iremos enfrentar nesse projeto é o gerenciamento de dívidas e devedores, realizando o cadastro e a relação das dívidas com as pessoas existentes na nossa aplicação.</p>
-<h2><a id="user-content-o-que-é-o--jsonplaceholder-" class="anchor" aria-hidden="true" href="#o-que-é-o--jsonplaceholder-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>O que é o {...} JSONPlaceholder ?</h2>
-<p>É uma API pública para testes. Acesse <a href="https://jsonplaceholder.typicode.com" rel="nofollow">https://jsonplaceholder.typicode.com</a>, para ver uma breve explicação do mesmo e os recursos que são disponibilizados. O principal recurso abordado aqui é o /users, que retorna uma lista de usuários com diversos atributos que iremos utilizar.</p>
-<h2><a id="user-content-️-documentação-da-api" class="anchor" aria-hidden="true" href="#️-documentação-da-api"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a><g-emoji class="g-emoji" alias="man_technologist" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f468-1f4bb.png"><img class="emoji" alt="man_technologist" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/1f468-1f4bb.png"></g-emoji> Documentação da API</h2>
-<ul>
-<li><a href="https://www.notion.so/Funcionamento-das-rotas-na-API-a5d5ffa6641e488e93392a615173fcf2" rel="nofollow">Link da documentação</a></li>
-</ul>
-<hr>
-<h2><a id="user-content-️-implementações-realizadas" class="anchor" aria-hidden="true" href="#️-implementações-realizadas"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a><g-emoji class="g-emoji" alias="man_technologist" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f468-1f4bb.png"><img class="emoji" alt="man_technologist" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/1f468-1f4bb.png"></g-emoji> Implementações realizadas</h2>
-<ul>
-<li>Criação de uma dívida associando ela a uma pessoa <g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"><img class="emoji" alt="heavy_check_mark" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"></g-emoji>;</li>
-<li>Listar todas as dívidas de um usuário <g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"><img class="emoji" alt="heavy_check_mark" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"></g-emoji>;</li>
-<li>Consultar informações de uma dívida <g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"><img class="emoji" alt="heavy_check_mark" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"></g-emoji>;</li>
-<li>Atualizar informações de uma dívida <g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"><img class="emoji" alt="heavy_check_mark" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"></g-emoji>;</li>
-<li>Deletar uma dívida <g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"><img class="emoji" alt="heavy_check_mark" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"></g-emoji>;</li>
-<li>Consulta de todas dívidas cadastradas <g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"><img class="emoji" alt="heavy_check_mark" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"></g-emoji>;</li>
-<li>Listar usuários e seus dados em uma API externa <g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"><img class="emoji" alt="heavy_check_mark" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"></g-emoji>;</li>
-<li>Listar os dados de um usuário em uma API externa <g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"><img class="emoji" alt="heavy_check_mark" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"></g-emoji>;</li>
-</ul>
-<hr>
-<h2><a id="user-content--tecnologias-e-libs" class="anchor" aria-hidden="true" href="#-tecnologias-e-libs"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a><g-emoji class="g-emoji" alias="rocket" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png"><img class="emoji" alt="rocket" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png"></g-emoji> Tecnologias e libs</h2>
-<p>O projeto foi desenvolvido utilizando as seguintes tecnologias</p>
-<ul>
-<li><a href="https://www.typescriptlang.org/" rel="nofollow">TypeScript</a></li>
-<li><a href="https://nodejs.org/en/about/" rel="nofollow">NodeJS</a></li>
-<li><a href="https://expressjs.com/pt-br/" rel="nofollow">Express</a></li>
-<li><a href="https://yarnpkg.com/" rel="nofollow">yarn</a></li>
-</ul>
-<hr>
-<h2><a id="user-content-️-ferramentas" class="anchor" aria-hidden="true" href="#️-ferramentas"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a><g-emoji class="g-emoji" alias="wrench" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f527.png"><img class="emoji" alt="wrench" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/1f527.png"></g-emoji> Ferramentas</h2>
-<p>Ferramentas utilizadas nesse projeto:</p>
-<ul>
-<li><a href="https://code.visualstudio.com/" rel="nofollow">VSCode</a></li>
-<li><a href="https://insomnia.rest/download/" rel="nofollow">Insomnia</a></li>
-<li><a href="https://github.com/">Git-e-Github</a></li>
-</ul>
-<hr>
-<h2><a id="user-content--como-baixar-e-rodar-o-projeto" class="anchor" aria-hidden="true" href="#-como-baixar-e-rodar-o-projeto"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a><g-emoji class="g-emoji" alias="card_index_dividers" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f5c2.png"><img class="emoji" alt="card_index_dividers" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/1f5c2.png"></g-emoji> Como baixar e rodar o projeto</h2>
-<div class="highlight highlight-source-shell"><pre>    <span class="pl-c"><span class="pl-c">#</span> Clone o repositório no github</span>
+<h1 align="center">
+    <tittle>Gerenciador de Devedores | Front-End</tittle>
+<h1 >
+
+## 💬️ Sobre o projeto
+
+O problema que iremos enfrentar nesse projeto é o gerenciamento de dívidas e devedores, realizando o cadastro e a relação das dívidas com as pessoas existentes na nossa aplicação.
+
+## O que é o {...} JSONPlaceholder ?
+
+É uma API pública para testes. Acesse https://jsonplaceholder.typicode.com, para ver uma breve explicação do mesmo e os recursos que são disponibilizados. O principal recurso abordado aqui é o /users, que retorna uma lista de usuários com diversos atributos que iremos utilizar.
+
+## 👨‍💻️ Implementações realizadas
+- Criação de uma dívida associando ela a uma pessoa ✔️;
+- Consultar informações de uma dívida ✔️;
+- Atualizar informações de uma dívida ✔️;
+- Deletar uma dívida ✔️;
+- Consulta de todas dívidas cadastradas ✔️;
+- Listar usuários e seus dados em uma API externa ✔️;
+- Listar os dados de um usuário em uma API externa ✔️;
+
+---
+
+## 🚀 Tecnologias e libs
+
+O projeto foi desenvolvido utilizando as seguintes tecnologias
+
+- [React JS](https://pt-br.reactjs.org/)
+- [React Router](https://reactrouter.com/web/guides/quick-start)
+- [Axios](https://github.com/axios/axios)
+- [Npm](https://www.npmjs.com/)
+
+---
+
+## 🔧️ Ferramentas
+
+Ferramentas utilizadas nesse projeto:
+
+- [VSCode](https://code.visualstudio.com/)
+- [Insomnia](https://insomnia.rest/download/)
+- [Git-e-Github](https://github.com/)
+
+---
+
+## 🗂 Como baixar e rodar o projeto
+
+```bash
+    # Clone o repositório no github
     $ git clone https://github.com/RenanRPDR/debt-manager-back
 
-    <span class="pl-c"><span class="pl-c">#</span> Entre no diretório "backend"</span>
-    $ <span class="pl-c1">cd</span> backend
+    # Entre no diretório "backend"
+    $ cd backend
 
-    <span class="pl-c"><span class="pl-c">#</span> Rode um yarn ou um npm para instalar as dependências do projeto</span>
+    # Rode um yarn ou um npm para instalar as dependências do projeto
     $ yarn install
 
-    <span class="pl-c"><span class="pl-c">#</span> De um start no servidor e "be happy!😁️"</span>
-    $ yarn dev:server</pre></div>
-<hr>
-<h3 align="center"><a id="user-content-feito-por-renan-portugal-do-rio" class="anchor" aria-hidden="true" href="#feito-por-renan-portugal-do-rio"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Feito por Renan Portugal do Rio</h3>
-</article>
-      </div>
+    # De um start no servidor e "be happy!😁️"
+    $ yarn dev:server
+```
+---
