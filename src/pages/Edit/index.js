@@ -8,7 +8,6 @@ export default function Edit({ history }) {
     const [idUsuario, setId] = useState('');
     const [motivo, setMotivo] = useState('');
     const [valor, setValor] = useState('');
-
     const _id = localStorage.getItem('id');
 
     useEffect(() => {
