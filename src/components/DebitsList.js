@@ -57,7 +57,7 @@ export default function () {
             setDebits(debits.filter(debt => debt._id !== _id))
 
         } catch (err) {
-            alert('Erro ao deletar dívidas, tente novamente.')
+            alert('Erro ao deletar dívida, tente novamente.')
         }
 
     }
