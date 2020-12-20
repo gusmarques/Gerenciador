@@ -1,14 +1,13 @@
 <h1 align="center">
     <tittle>Gerenciador de Devedores | Front-End</tittle>
 <h1 >
+ 
+<img src="exemplo-image.png" alt="exemplo imagem">
+
 
 ## 💬️ Sobre o projeto
 
 O problema que iremos enfrentar nesse projeto é o gerenciamento de dívidas e devedores, realizando o cadastro e a relação das dívidas com as pessoas existentes na nossa aplicação.
-
-## O que é o {...} JSONPlaceholder ?
-
-É uma API pública para testes. Acesse https://jsonplaceholder.typicode.com, para ver uma breve explicação do mesmo e os recursos que são disponibilizados. O principal recurso abordado aqui é o /users, que retorna uma lista de usuários com diversos atributos que iremos utilizar.
 
 ## 👨‍💻️ Implementações realizadas
 - Criação de uma dívida associando ela a uma pessoa ✔️;
@@ -16,8 +15,6 @@ O problema que iremos enfrentar nesse projeto é o gerenciamento de dívidas e d
 - Atualizar informações de uma dívida ✔️;
 - Deletar uma dívida ✔️;
 - Consulta de todas dívidas cadastradas ✔️;
-- Listar usuários e seus dados em uma API externa ✔️;
-- Listar os dados de um usuário em uma API externa ✔️;
 
 ---
 
