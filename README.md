@@ -43,16 +43,13 @@ Ferramentas utilizadas nesse projeto:
 
 ```bash
     # Clone o repositório no github
-    $ git clone https://github.com/RenanRPDR/debt-manager-back
+    $ git clone https://github.com/gusmarques/Gerenciador.git
+   
+    # Rode um npm para instalar as dependências do projeto
+    $ npm install
 
-    # Entre no diretório "backend"
-    $ cd backend
-
-    # Rode um yarn ou um npm para instalar as dependências do projeto
-    $ yarn install
-
-    # De um start no servidor e "be happy!😁️"
-    $ yarn dev:server
+    # De um start na aplicação
+    $ npm start
 ```
 ---
 
