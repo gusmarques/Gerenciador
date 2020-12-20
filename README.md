@@ -44,7 +44,10 @@ Ferramentas utilizadas nesse projeto:
 ```bash
     # Clone o repositório no github
     $ git clone https://github.com/gusmarques/Gerenciador.git
-   
+    
+    # Entre no diretório "Gerenciador"
+    $ cd Gerenciador
+    
     # Rode um npm para instalar as dependências do projeto
     $ npm install
 
